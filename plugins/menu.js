@@ -30,9 +30,9 @@ let tags = {
 const defaultMenu = {
   before: `╭━━━━━━━━━━━━┈ ❋ཻུ۪۪⸙
 │ 「 %me 」
-│ 𝐓𝐞𝐫𝐢𝐦𝐚𝐤𝐚𝐬𝐢𝐡 𝐒𝐮𝐝𝐚𝐡
-│ 𝐌𝐞𝐧𝐠𝐠𝐮𝐧𝐚𝐤𝐚𝐧 𝐁𝐨𝐭 𝐢𝐧𝐢
-│ 𝐒𝐞𝐦𝐨𝐠𝐚 𝐡𝐚𝐫𝐢𝐦𝐮 𝐦𝐞𝐧𝐲𝐞𝐧𝐚𝐧𝐠𝐤𝐚𝐧
+│ Created this Bot
+│ Follow : https://instagram.com/dark_devil_3609
+│ 
 ╰┬────────────┈ ⳹
 ┌┤◦➛ 𝐍𝐚𝐦𝐚: %name!
 ││◦➛ 𝐋𝐢𝐦𝐢𝐭: %limit Limit
@@ -48,7 +48,7 @@ const defaultMenu = {
 `.trimStart(),
   header: '╭━━━━━━━━━━━━┈ ❋ཻུ۪۪⸙\n│ 「 %category 」\n╰┬────────────┈ ⳹\n┌┤ #JanganDispam',
   body: '││◦➛ %cmd %islimit %isPremium',
-  footer: '│╰────────────┈ ⳹\n│ 𝐓𝐚𝐧𝐠𝐠𝐚𝐥: %week, %date \n╰━━━━━━━━━━━━┈ ❋ཻུ۪۪⸙',
+  footer: '│╰────────────┈ ⳹\n│ DATE: %week, %date \n╰━━━━━━━━━━━━┈ ❋ཻུ۪۪⸙',
   after: ``,
 }
 let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
@@ -148,7 +148,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
     const pp = await conn.profilePictureUrl(conn.user.jid).catch(_ => './src/avatar_contact.png')
-    conn.sendHydrated(m.chat, text.trim(), author, thumbmenu, sig, 'Instagram', `+${global.ownernumber}`, 'Number Owner', [
+    conn.sendHydrated(m.chat, text.trim(), author, thumbmenu, sig, 'Instagram', `+917025770987`, 'Number Owner', [
       ['𝐃𝐨𝐧𝐚𝐭𝐞', '/donasi'],
       ['𝐒𝐩𝐞𝐞𝐝', '/ping'],
       ['𝐂𝐫𝐞𝐚𝐭𝐨𝐫', '/owner']
