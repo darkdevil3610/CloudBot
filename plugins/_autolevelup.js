@@ -9,10 +9,10 @@ export function before(m) {
 
     if (before !== user.level) {
         m.reply(`
-Selamat, anda telah naik level!
+Congratulations, you've leveled up!
 *${before}* -> *${user.level}*
-gunakan *.profile* untuk mengecek
-	`.trim())
+use *.profile* to check
+     `.trim())
     }
 }
 export const disabled = false
