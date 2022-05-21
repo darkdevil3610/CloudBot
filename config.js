@@ -6,18 +6,18 @@ import { fileURLToPath } from 'url'
 
 global.donasi = process.env.DONASI
 global.thumbmenu = process.env.THUMB_MENU
-global.sig = process.env.LINK_IG
+global.sig = 'https://instagram.com/dark_devil_3609'
 global.sgh = process.env.LINK_GITHUB
 global.sgc = process.env.LINK_GROUP
 global.ownernumber = process.env.NOWNER
 global.owner = [
   ['0'],
   ['0'],
-  [`${process.env.NOWNER}`, `${process.env.NAMAOWNER}`, true]
+  [`917025770987`, `𝗚𝗼𝘂𝗿𝗮𝘃`, true]
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [`${process.env.MODERATOR}`] // Want some help?
-global.prems = [] // Premium user has unlimited limit
+global.prems = [917025770987] // Premium user has unlimited limit
 global.APIs = { // API Prefix
   // name: 'https://website'
   nrtm: 'https://nurutomo.herokuapp.com',
