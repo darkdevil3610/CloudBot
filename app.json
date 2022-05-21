@@ -1,7 +1,7 @@
 {
   "name": "CloudBot",
   "description": "Customizable WhatsApp Bot",
-  "repository": "https://github.com/lordlightness/Cloud-Bot-Whatsapp-Multi-Device",
+  "repository": "https://github.com/darkdevil3610/CloudBot",
   "logo": "https://node-js-sample.herokuapp.com/node.png",
   "keywords": ["bot", "whatsapp", "whatsapp-bot", "rpg", "games-wabot", "epic rpg"],
   "stack": "container",
@@ -9,27 +9,27 @@
         "NOWNER": {
             "description": "Nomer Owner",
             "required": true,
-            "value": "6281224863098"
+            "value": "917025770987"
         },
         "NAMAOWNER": {
             "description": "Nama Owner",
             "required": true,
-            "value": "Dellas"
+            "value": "Gourav"
         },
         "LINK_GITHUB": {
             "description": "Link Github",
             "required": true,
-            "value": "https://github.com/itsmedell"
+            "value": "https://github.com"
         },
         "LINK_IG": {
             "description": "Link Profile Instagram",
             "required": true,
-            "value": "https://www.instagram.com/lord_lightness"
+            "value": "https://instagram.com/dark_devil_3609"
         },
         "LINK_GROUP": {
             "description": "Link tautan grup whatsapp",
             "required": true,
-            "value": "https://chat.whatsapp.com/Bx5aAxINL4hBLt6MxaK5xB"
+            "value": "https://chat.whatsapp.com"
         },
         "PACKNAME": {
             "description": "Packname sticker",
@@ -37,9 +37,9 @@
             "value": "Created by"
         },
         "AUTHOR": {
-            "description": "Author Bot (WM)",
+            "description": "Gourav",
             "required": true,
-            "value": "CloudBot"
+            "value": "Gourav"
         },
         "MODERATOR": {
             "description": "Moderator Bot",
@@ -49,7 +49,7 @@
         "THUMB_MENU": {
             "description": "Nomer Owner",
             "required": true,
-            "value": "https://telegra.ph/file/baea4ead668adebdc5073.jpg"
+            "value": "https://telegra.ph/file/56f641c3cf138aa7f27b2.jpg"
         },
         "DONASI": {
             "description": "Nomer Owner",
